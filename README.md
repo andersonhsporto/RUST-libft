@@ -24,4 +24,4 @@ Regrouping usual C functions in RUST
        it returns c.
 
 
-* Inspired by [Libft](https://github.com/andersonhsporto/ft-libft)
+Inspired by [Libft](https://github.com/andersonhsporto/ft-libft)
