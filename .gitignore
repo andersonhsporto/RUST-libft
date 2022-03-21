@@ -17,3 +17,4 @@ Cargo.lock
 ru_isalpha
 ru_isdigit
 ru_isalnum
+ru_isascii
