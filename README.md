@@ -22,3 +22,6 @@ Regrouping usual C functions in RUST
 
 * > [ru_tolower](/ru_tolower.rs) `(ru_toupper(c: char) -> char)` If c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current  locale.   Otherwise,
        it returns c.
+
+
+* Inspired by [Libft](https://github.com/andersonhsporto/ft-libft)
