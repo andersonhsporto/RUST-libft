@@ -22,3 +22,4 @@ ru_strlen
 ru_toupper
 ru_tolower
 ru_isprint
+ru_isspace
