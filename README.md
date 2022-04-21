@@ -1,4 +1,4 @@
-# RUST-libru
+# RUST-libft
 Regrouping usual C functions in RUST
 ---
 ### Part 1 - Libc functions
@@ -24,4 +24,4 @@ Regrouping usual C functions in RUST
        it returns c.
 
 
-Inspired by [Libft](https://github.com/andersonhsporto/ft-libft)
+Inspired by [<em> Libft </em>](https://github.com/andersonhsporto/ft-libft)
