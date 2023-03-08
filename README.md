@@ -2,7 +2,7 @@
 Regrouping usual C functions in RUST
 This project is only for educational purpose and is not intended to be used in production.
 
-*** Theres a lot unsafe code in this project, so be careful when using it. ***
+<em> Theres a lot unsafe code in this project, so be careful when using it. <em>
 ---
 ### Part 1 - Libc functions
 
@@ -37,6 +37,8 @@ This project is only for educational purpose and is not intended to be used in p
 * > [ru_memschr](/ru_memschr.rs) `(ru_memschr(s: String, c: char) -> String)` The memchr() function locates the first occurrence of c (converted to an unsigned char) in string s.
 
 * > [ru_memcmp](/ru_memcmp.rs) `(ru_memcmp(s1: String, s2: String, n: usize) -> i32)` The memcmp() function compares byte string s1 against byte string s2.  Both strings are assumed to be n bytes long.
+
+* > [ru_strcmp](/ru_strcmp.rs) `(ru_strcmp(s1: String, s2: String) -> i32)` The strcmp() function compares the two strings s1 and s2.
 
 * > [ru_strjoin](/ru_strjoin.rs) `(ru_strjoin(s1: String, s2: String) -> String)` The strjoin() function allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 
