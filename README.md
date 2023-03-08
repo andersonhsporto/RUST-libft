@@ -1,5 +1,5 @@
 # RUST-libft
-Regrouping usual C functions in RUST
+Regrouping usual C functions in RUST <br>
 This project is only for educational purpose and is not intended to be used in production.
 
 ---
