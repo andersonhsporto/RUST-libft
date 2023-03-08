@@ -2,8 +2,10 @@
 Regrouping usual C functions in RUST
 This project is only for educational purpose and is not intended to be used in production.
 
-<em> Theres a lot unsafe code in this project, so be careful when using it. <em>
 ---
+
+<em> Theres a lot unsafe code in this project, so be careful when using it. <em>
+
 ### Part 1 - Libc functions
 
 * > [ru_isalnum](/ru_isalnum.rs) `(ru_isalnum(c: char) -> i32)` checks for an alphanumeric character; it is equivalent to (isalpha(c) || isdigit(c)).
@@ -20,11 +22,9 @@ This project is only for educational purpose and is not intended to be used in p
 
 * > [ru_strlen](/ru_strlen.rs) `(ru_strlen(str: String) -> usize)` The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
 
-* > [ru_toupper](/ru_toupper.rs) `(ru_tolower(c: char) -> char)` If  c  is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise,
-       it returns c.
+* > [ru_toupper](/ru_toupper.rs) `(ru_tolower(c: char) -> char)` If  c  is a lowercase letter, toupper() returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns c.
 
-* > [ru_tolower](/ru_tolower.rs) `(ru_toupper(c: char) -> char)` If c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current  locale.   Otherwise,
-       it returns c.
+* > [ru_tolower](/ru_tolower.rs) `(ru_toupper(c: char) -> char)` If c is an uppercase letter, tolower() returns its lowercase equivalent, if a lowercase representation exists in the current  locale.   Otherwise, it returns c.
 
 * > [ru_atoi](/ru_atoi.rs) `(ru_atoi(str: String) -> i32)` The atoi() function converts the initial portion of the string pointed to by str to int representation.
 
@@ -40,6 +40,6 @@ This project is only for educational purpose and is not intended to be used in p
 
 * > [ru_strcmp](/ru_strcmp.rs) `(ru_strcmp(s1: String, s2: String) -> i32)` The strcmp() function compares the two strings s1 and s2.
 
-* > [ru_strjoin](/ru_strjoin.rs) `(ru_strjoin(s1: String, s2: String) -> String)` The strjoin() function allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
+* > [ru_strjoin](/ru_strjoin.rs) `(ru_strjoin(s1: String, s2: String) -> String)` The strjoin() returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 
 Inspired by [<em> Libft </em>](https://github.com/andersonhsporto/ft-libft)
